@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "instagram embed url",
+  "version": "1.0.0.0",
+  "description": "generate url",
+  "browser_action": {
+    "default_title": "Copy url",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ]
+}
